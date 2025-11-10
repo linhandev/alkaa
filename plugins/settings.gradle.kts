@@ -1,5 +1,6 @@
 dependencyResolutionManagement {
     repositories {
+        maven("/path/to/local/build/repo")
         mavenCentral()
     }
     versionCatalogs {

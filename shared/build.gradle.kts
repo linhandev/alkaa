@@ -88,6 +88,12 @@ kotlin {
             implementation(libs.test.uiautomator)
             implementation(libs.test.manifest)
         }
+
+        // compilations.all {
+        //     compilerOptions.configure {
+        //        freeCompilerArgs.add("-Xllvm-module-opt-threads=8")
+        //     }
+        // }
     }
 
     androidTarget {

@@ -4,6 +4,7 @@ plugins {
 }
 
 repositories {
+    maven("/path/to/local/build/repo")
     mavenCentral()
     google()
 }

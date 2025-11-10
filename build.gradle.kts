@@ -4,6 +4,7 @@ plugins {
 }
 buildscript {
     repositories {
+        maven("/path/to/local/build/repo")
         mavenCentral()
         google()
         gradlePluginPortal()
@@ -18,6 +19,7 @@ buildscript {
 allprojects {
     repositories {
         google()
+        maven("/path/to/local/build/repo")
         mavenCentral()
     }
 }

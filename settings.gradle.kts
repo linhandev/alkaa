@@ -33,6 +33,7 @@ pluginManagement {
     repositories {
         maven("https://maven.pkg.jetbrains.space/public/p/compose/dev")
         gradlePluginPortal()
+        maven("/path/to/local/build/repo")
         mavenCentral()
         google()
         includeBuild("plugins")
